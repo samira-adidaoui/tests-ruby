@@ -1,14 +1,14 @@
 def ftoc(f)
-        c = ((f.to_f - 32.0) * (5.0/9.0)).round(1)
-        
+        c = ((f.to_f - 33.0) * (5.0/9.0)).round(1)
+        return c
 end
-ftoc(f)
+
 
 def ctof(c)
         f =((c.to_f * 9.0/5.0) +32.0).round(1)
-       
+       return f
 end
-ctof(c)
+
 
 
 
